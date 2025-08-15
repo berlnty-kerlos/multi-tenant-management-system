@@ -58,9 +58,9 @@ cd multi-tenant-management-system
 	#Ensure the database is ready before running the backend.
 ### Access Applications
 
--Frontend: http://localhost:3000
--Backend API: http://localhost:8000
--FastAPI auto docs: http://localhost:8000/docs or http://localhost:8000/redoc
+- Frontend: http://localhost:3000
+- Backend API: http://localhost:8000
+- FastAPI auto docs: http://localhost:8000/docs or http://localhost:8000/redoc
 ---
 	
 ## 3- Architecture & Design Decisions
