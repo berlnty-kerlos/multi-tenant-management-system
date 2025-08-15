@@ -10,6 +10,6 @@ COPY . .
 RUN npm run build
 RUN npm install -g serve
 
-EXPOSE ${FRONTEND_PORT}
+EXPOSE 3000
 
-CMD ["serve", "-s", "build", "-l", "${FRONTEND_PORT}"]
+CMD ["serve", "-s", "build", "-l", "3000"]

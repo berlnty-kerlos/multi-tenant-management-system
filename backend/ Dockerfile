@@ -14,6 +14,6 @@ COPY . .
 COPY entrypoint.sh .
 RUN chmod +x entrypoint.sh
 
-EXPOSE ${BACKEND_PORT}
+EXPOSE 8000
 
 CMD ["./entrypoint.sh"]

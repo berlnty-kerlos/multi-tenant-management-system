@@ -8,7 +8,7 @@ env_file = ".env"
 if os.getenv("ENVIRONMENT") == "test":
     env_file = ".env.test"
 
-load_dotenv(Path(__file__).parent.parent.parent / env_file)
+load_dotenv(Path(__file__).resolve().parents[3]  / env_file)
 
 class Settings(BaseSettings):
     DATABASE_URL: str
